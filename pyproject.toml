@@ -5,11 +5,10 @@ description = ""
 authors = ["Your Name <you@example.com>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "vercel_poetry"}]
 
 [tool.poetry.dependencies]
 python = "~3.9"
-flask = "^2.2.3"
+sanic = "^23.3.0"
 
 
 [build-system]
