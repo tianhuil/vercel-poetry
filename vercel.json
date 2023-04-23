@@ -1,4 +1,3 @@
 {
-  "installCommand": "poetry install",
-  "buildCommand": "poetry install"
+  "buildCommand": "./setup.sh"
 }
