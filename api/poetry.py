@@ -1,3 +1,5 @@
+import ediblepickle
+
 from http.server import BaseHTTPRequestHandler
  
 class handler(BaseHTTPRequestHandler):
@@ -6,6 +8,7 @@ class handler(BaseHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type','text/plain')
         self.end_headers()
-        self.wfile.write('Hello, Python!'.encode('utf-8'))
+        
+        self.wfile.write(f'Edible Pickle Version!{ediblepickle.__version__}')
         return
     
