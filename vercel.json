@@ -1,3 +1,4 @@
 {
-  "installCommand": "poetry install"
+  "installCommand": "poetry install",
+  "buildCommand": "poetry install"
 }
