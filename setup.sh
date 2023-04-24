@@ -4,4 +4,4 @@ curl -sSL https://install.python-poetry.org | python3 -
 echo "Poetry Version"
 $POETRY_HOME/bin/poetry --version
 
-poetry install
+$POETRY_HOME/poetry install
