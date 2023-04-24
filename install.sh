@@ -11,8 +11,10 @@ pip list -v
 
 echo "============================="
 poetry install
-ls ~/.config/pypoetry
-echo $POETRY_CONFIG_DIR
+echo $POETRY_HOME
+ls ./.venv
+ls ./virtualenvs
+
 
 # $POETRY_HOME/bin/poetry install
 echo "Finished Installing Poetry"
