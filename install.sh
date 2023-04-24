@@ -2,11 +2,10 @@
 
 echo "========================================================"
 echo "Using Poetry Install"
-export POETRY_HOME=/opt/poetry
-curl -sSL https://install.python-poetry.org | python3 -
-echo "Poetry Version"
-$POETRY_HOME/bin/poetry --version
+# export POETRY_HOME=/opt/poetry
+pip install poetry
+poetry install
 
-$POETRY_HOME/bin/poetry install
+# $POETRY_HOME/bin/poetry install
 echo "Finished Installing Poetry"
 echo "========================================================"
