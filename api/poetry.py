@@ -9,6 +9,6 @@ class handler(BaseHTTPRequestHandler):
         self.send_header('Content-type','text/plain')
         self.end_headers()
         
-        self.wfile.write(f'Edible Pickle Version!{ediblepickle.__version__}')
+        self.wfile.write(('Edible Pickle Author {}').format(ediblepickle.__author__).encode('utf-8'))
         return
     
