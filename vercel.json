@@ -1,4 +1,4 @@
 {
     "buildCommand": "./setup.sh",
-    "installCommand": "echo 'foo'"
+    "installCommand": "echo 'Required Stub installCommand'"
 }
