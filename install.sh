@@ -20,6 +20,7 @@ ls $HOME/.venv
 echo "============================="
 echo $PYTHON_PATH
 echo $PYTHONPATH
+PYTHONPATH=$PYTHONPATH:$CWD/.venv
 
 
 # $POETRY_HOME/bin/poetry install
