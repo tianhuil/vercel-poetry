@@ -17,7 +17,7 @@ echo "============================="
 ls ./.venv
 echo "============================="
 ls $HOME/.venv
-echo "============================="
+echo "============================"
 echo $PYTHON_PATH
 echo $PYTHONPATH
 PYTHONPATH=$PYTHONPATH:$CWD/.venv
