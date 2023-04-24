@@ -11,9 +11,13 @@ pip list -v
 
 echo "============================="
 poetry install
+echo "============================="
 echo $POETRY_HOME
+echo "============================="
 ls ./.venv
-ls ./virtualenvs
+echo "============================="
+ls $HOME/.venv
+echo "============================="
 
 
 # $POETRY_HOME/bin/poetry install
