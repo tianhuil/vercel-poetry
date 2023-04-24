@@ -8,7 +8,5 @@ echo "Poetry Version"
 $POETRY_HOME/bin/poetry --version
 
 $POETRY_HOME/bin/poetry install
-mkdir public
-touch public/index.html
 echo "Finished Installing Poetry"
 echo "========================================================"
