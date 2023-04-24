@@ -18,6 +18,7 @@ ls ./.venv
 echo "============================="
 ls $HOME/.venv
 echo "============================="
+echo $PYTHON_PATH
 
 
 # $POETRY_HOME/bin/poetry install
